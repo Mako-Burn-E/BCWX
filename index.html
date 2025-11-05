@@ -64,6 +64,27 @@
   margin: auto;
   display: block;
 }
+/* stop the right column from stretching taller than its content */
+.hero { align-items: start; }            /* or: flex-start */
+.hero-card { 
+  align-self: start;                     /* extra safety */
+  display: inline-block;                 /* shrink-wrap to content */
+}
+
+/* keep the image itself constrained and responsive */
+.hero-card img {
+  width: 100%;
+  height: auto;
+  max-height: 420px;                     /* tune to taste */
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+/* smaller on mobile */
+@media (max-width: 980px) {
+  .hero-card img { max-height: 300px; }
+}
 
   </style>
 </head>
