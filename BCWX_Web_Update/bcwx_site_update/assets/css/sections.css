@@ -1,9 +1,0 @@
-.tablist{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin:10px 0 14px}
-.tablist [role='tab']{cursor:pointer;border:0;border-radius:12px;padding:10px 14px;font-weight:800;background:rgba(255,255,255,.08);color:#F3F5F9}
-.tablist [aria-selected='true']{background:linear-gradient(90deg,#FF2F6E,#FF742E);color:#0A0A0A}
-.tabpanel{display:none;border-radius:16px;padding:16px;background:rgba(255,255,255,.05)}
-.tabpanel.active{display:block;animation:fadeIn .25s}
-@keyframes fadeIn{from{opacity:0}to{opacity:1}}
-.sub{margin:.6em 0 .2em;font-size:1.05rem;opacity:.9}
-.clean{list-style:none;margin:0;padding:0}
-.clean li{padding:8px 0;border-bottom:1px dashed rgba(255,255,255,.18)}
