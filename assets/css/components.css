@@ -15,15 +15,15 @@
 .spark{height:3px;width:220px;margin-top:12px;background:linear-gradient(90deg,var(--pink),var(--orange));box-shadow:0 0 22px rgba(255,116,46,.35),0 0 22px rgba(255,47,110,.35)}
 .hero-card{border-radius:var(--r);overflow:hidden;background:rgba(255,255,255,.03);box-shadow:0 16px 48px rgba(0,0,0,.45),0 0 60px rgba(255,47,110,.18)}
 .hero-card img {
+  display: block;
   width: 100%;
   height: auto;
-  max-width: 600px;
+  aspect-ratio: 2 / 3;       /* keep exact 1024x1536 proportion */
+  max-width: 480px;          /* adjust this number to control size */
   margin: 0 auto;
-  display: block;
   object-fit: contain;
   border-radius: 12px;
-  transform: scale(1, 0.6); /* reduces height to ~60% (40% smaller) */
-  transform-origin: center;
+  box-shadow: 0 10px 40px rgba(255, 47, 110, 0.25);
 }
 
 .caption{display:flex;justify-content:space-between;align-items:center;padding:8px 10px;color:#E6E9EE;font-size:12px;background:linear-gradient(90deg,rgba(255,47,110,.18),rgba(255,63,46,.14),rgba(255,116,46,.18))}
