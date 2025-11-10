@@ -24,35 +24,44 @@
 </head>
 <body>
   <div class="wrap">
+    <!-- NAV -->
     <nav class="nav">
       <div class="brand"><span class="bead"></span><span>BCWX</span></div>
-      <div class="nav-cta">
-  <a class="chip" href="https://dexscreener.com/solana/hx8bv2n4skh23txjf1qt2sbf6onqpfwn1sbsmb4zdj9m" target="_blank" rel="noopener">
-    💰 DEX
-  </a>
 
-  <a class="chip" href="https://x.com/BCWX331191?s=09" target="_blank" rel="noopener">
-    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" viewBox="0 0 24 24" style="margin-right:6px;">
-      <path d="M23.643 4.937a9.3 9.3 0 01-2.828.797A4.93 4.93 0 0023.03 3.1a9.723 9.723 0 01-3.127 1.195 4.917 4.917 0 00-8.38 4.482A13.94 13.94 0 011.671 3.15a4.911 4.911 0 001.523 6.55 4.89 4.89 0 01-2.229-.616v.062a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.224.084 4.935 4.935 0 004.604 3.417A9.867 9.867 0 010 19.54a13.896 13.896 0 007.548 2.212c9.056 0 14.01-7.514 14.01-14.034 0-.213-.005-.425-.014-.636a10.003 10.003 0 002.46-2.545z"/>
-    </svg>
-    X
-  </a>
+      <div class="nav-cta" id="social-cta">
+        <!-- Buy -->
+        <a class="chip" id="buyTop" href="https://dexscreener.com/solana/hx8bv2n4skh23txjf1qt2sbf6onqpfwn1sbsmb4zdj9m" target="_blank" rel="noopener" aria-label="Buy BCWX on Dexscreener">
+          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="currentColor" style="margin-right:6px;vertical-align:-2px">
+            <path d="M12 2a10 10 0 1010 10A10.011 10.011 0 0012 2zm1 5v4h4v2h-4v4h-2v-4H7v-2h4V7z"/>
+          </svg>
+          Buy
+        </a>
 
-<a class="chip" href="https://t.me/+poLiOJTuy5UzMjQx" target="_blank" rel="noopener">Telegram</a>
-    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" viewBox="0 0 24 24" style="margin-right:6px;">
-      <path d="M9.036 14.65l-.39 5.52c.56 0 .805-.24 1.095-.525l2.625-2.505 5.445 3.975c1 .555 1.72.27 1.965-.915l3.555-16.665c.36-1.68-.6-2.34-1.59-1.935L1.5 10.29c-1.635.66-1.605 1.62-.285 2.055l5.4 1.68L18.9 5.67c.57-.36 1.095-.165.66.21"/>
-    </svg>
-    Telegram
-  </a>
+        <!-- X -->
+        <a class="chip" href="https://x.com/BCWX331191?s=09" target="_blank" rel="noopener" aria-label="X">
+          <svg width="14" height="14" viewBox="0 0 1200 1227" aria-hidden="true" style="margin-right:6px;vertical-align:-2px">
+            <path fill="currentColor" d="M714 519L1160 0H1052L682 427L377 0H0L466 637L0 1227H108L503 777L841 1227H1200L714 519ZM552 713L510 658L147 82H330L627 484L669 539L1058 1145H875L552 713Z"/>
+          </svg>
+          X
+        </a>
 
- <a class="chip" href="https://discord.gg/playdefi" target="_blank" rel="noopener">Discord</a>
-    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" fill="currentColor" viewBox="0 0 24 24" style="margin-right:6px;">
-      <path d="M19.54 3.17A19.79 19.79 0 0015.6 2c-.2.38-.43.9-.59 1.3a18.55 18.55 0 00-5.02 0c-.16-.41-.39-.92-.59-1.3a19.8 19.8 0 00-3.94 1.17c-2.5 3.7-3.17 7.31-2.83 10.86a19.5 19.5 0 005.82 2.95c.47-.63.9-1.3 1.27-2a11.94 11.94 0 01-1.83-.9c.15-.12.3-.24.44-.36a8.35 8.35 0 007.1 0c.15.12.3.24.44.36a11.8 11.8 0 01-1.83.9c.37.7.8 1.37 1.27 2a19.5 19.5 0 005.82-2.95c.41-4.2-.73-8.08-2.86-10.86zM9.06 13.37c-.86 0-1.56-.8-1.56-1.78s.7-1.78 1.56-1.78c.87 0 1.57.8 1.56 1.78 0 .98-.7 1.78-1.56 1.78zm5.88 0c-.86 0-1.56-.8-1.56-1.78s.7-1.78 1.56-1.78c.87 0 1.57.8 1.56 1.78 0 .98-.69 1.78-1.56 1.78z"/>
-    </svg>
-    Discord
-  </a>
-</div>
+        <!-- Telegram -->
+        <a class="chip" href="https://t.me/+poLiOJTuy5UzMjQx" target="_blank" rel="noopener" aria-label="Telegram">
+          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="currentColor" style="margin-right:6px;vertical-align:-2px">
+            <path d="M22 2L2.7 9.3c-1.3.5-1.3 2.3.1 2.7l5 1.5 2 6c.3 1 1.6 1.1 2.1.2l3-4.8 5.1 3.7c.9.6 2.1.1 2.3-1l3-15c.3-1.3-.9-2.3-2.3-1.6z"/>
+          </svg>
+          Telegram
+        </a>
 
+        <!-- Discord -->
+        <a class="chip" href="https://discord.gg/playdefi" target="_blank" rel="noopener" aria-label="Discord">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 245 240" fill="currentColor" style="margin-right:6px;vertical-align:-2px">
+            <path d="M104.4 104.9c-5.7 0-10.2 5-10.2 11.1 0 6.1 4.6 11.1 10.2 11.1 5.7 0 10.2-5 10.2-11.1.1-6.1-4.5-11.1-10.2-11.1zm36.2 0c-5.7 0-10.2 5-10.2 11.1 0 6.1 4.6 11.1 10.2 11.1 5.7 0 10.2-5 10.2-11.1 0-6.1-4.5-11.1-10.2-11.1z"/>
+            <path d="M222 0H23C10.3 0 0 10.3 0 23v194c0 12.7 10.3 23 23 23h168.4l-7.9-27.5 18.9 17.5 17.9 16.5L245 240V23c0-12.7-10.3-23-23-23zm-56.2 166.3s-5.3-6.3-9.7-11.8c19.2-5.4 26.5-17.3 26.5-17.3-6.1 4-11.9 6.8-17.1 8.6-7.4 3.1-14.5 5.1-21.4 6.3-14.2 2.7-27.2 2-38.5-.1-8.5-1.6-15.8-3.9-21.8-6.3-3.4-1.3-7.1-3-10.8-5.1-0.4-0.2-0.7-0.3-1.1-0.5-0.3-0.2-0.5-0.3-0.5-0.3s7 11.7 25.6 17.2c-4.4 5.5-9.8 12-9.8 12-32.3-1-44.6-22.2-44.6-22.2 0-47.1 21.2-85.3 21.2-85.3 21.2-15.8 41.4-15.4 41.4-15.4l1.5 1.8c-26.5 7.6-38.7 19.1-38.7 19.1s3.2-1.8 8.6-4.3c15.6-6.8 28-8.7 33.1-9.2 8.6-1.1 18.3-1.4 28.4-.3 13.4 1.5 27.8 5.3 42.5 13.1 0 0-11.6-11.1-36.6-18.7l2.1-2.4s20.2-.4 41.4 15.4c0 0 21.2 38.2 21.2 85.3 0 0-12.3 21.2-44.6 22.2z" />
+          </svg>
+          Discord
+        </a>
+      </div>
     </nav>
 
     <!-- HERO -->
@@ -60,10 +69,10 @@
       <div class="hero-copy">
         <span class="eyebrow">BCWX · Meme Token with a Job</span>
         <h1>Meme Power. Real Burn.</h1>
-        <p class="lede">
-          <p>To participate, buy <strong>BCWX</strong> and mint a non-transferable <strong>Burner NFT</strong> using ten dollars’ worth of BCWX at its current market price.</p>
-<p>Join the exclusive events for <strong>Burner NFT</strong> holders inside the <strong>PlayDeFi dApp</strong>. Each entry helps reduce supply and keeps the ecosystem thriving.</p>
-        </p>
+
+        <p class="lede">To participate, buy <strong>BCWX</strong> and mint a non-transferable <strong>Burner NFT</strong> using ten dollars’ worth of BCWX at its current market price.</p>
+        <p class="lede">Join the exclusive events for <strong>Burner NFT</strong> holders inside the <strong>PlayDeFi dApp</strong>. Each entry helps reduce supply and keeps the ecosystem thriving.</p>
+
         <div class="spark"></div>
         <div class="cta-row">
           <a class="btn btn-primary" href="https://play.playdefi.org/bcwx/" target="_blank" rel="noopener">Launch dApp</a>
@@ -73,9 +82,7 @@
 
       <figure class="hero-card">
         <img src="assets/img/bcwx-hero.png" alt="BCWX Mascot" width="1200" height="900" loading="lazy">
-        <figcaption class="caption">
-      
-        </figcaption>
+        <figcaption class="caption"></figcaption>
       </figure>
     </section>
 
@@ -98,135 +105,135 @@
         <button id="tab-faq" role="tab" aria-controls="panel-faq" aria-selected="false">FAQ</button>
       </div>
 
-     <div id="panel-about" class="tabpanel active" role="tabpanel" aria-labelledby="tab-about">
-  <h2>🐾 About BCWX</h2>
+      <!-- ABOUT -->
+      <div id="panel-about" class="tabpanel active" role="tabpanel" aria-labelledby="tab-about">
+        <h2>🐾 About BCWX</h2>
 
-  <p><strong>BCWX</strong> is not a token that waits to moon. It prowls, plots, and pounces. 🐈‍⬛ Built with precision and feline patience, it burns supply on purpose, rewards motion, and turns community energy into pure momentum.</p>
+        <p><strong>BCWX</strong> is not a token that waits to moon. It prowls, plots, and pounces. 🐈‍⬛ Built with precision and feline patience, it burns supply on purpose, rewards motion, and turns community energy into pure momentum.</p>
 
-  <p>Every <strong>PlayDeFi</strong> event keeps the pride in motion. 🦁 Each <strong>BCWX</strong> entry is split four ways:</p>
+        <p>Every <strong>PlayDeFi</strong> event keeps the pride in motion. 🦁 Each <strong>BCWX</strong> entry is split four ways:</p>
 
-  <ul class="clean">
-    <li>🔥 <strong>Burned Forever:</strong> Gone forever. Scarcity sharpened.</li>
-    <li>🏆 <strong>Event Winner:</strong> The spotlight moment. Someone walks away grinning.</li>
-    <li>💼 <strong>Treasury:</strong> Fuel for the next hunt — growth, development, liquidity.</li>
-    <li>🐾 <strong>OG Cat NFT Holders:</strong> The original cats of the pride always get their share of the shine.</li>
-  </ul>
+        <ul class="clean">
+          <li>🔥 <strong>Burned Forever:</strong> Gone forever. Scarcity sharpened.</li>
+          <li>🏆 <strong>Event Winner:</strong> The spotlight moment. Someone walks away grinning.</li>
+          <li>💼 <strong>Treasury:</strong> Fuel for the next hunt — growth, development, liquidity.</li>
+          <li>🐾 <strong>OG Cat NFT Holders:</strong> The original cats of the pride always get their share of the shine.</li>
+        </ul>
 
-  <p><strong>OG Cat NFT</strong> holders remain the elder cats of the pride. 👑 <strong>BCWX Burner NFT</strong> holders are the new generation — the ones sharpening claws on the blockchain. 💥</p>
+        <p><strong>OG Cat NFT</strong> holders remain the elder cats of the pride. 👑 <strong>BCWX Burner NFT</strong> holders are the new generation — the ones sharpening claws on the blockchain. 💥</p>
 
-  <p><strong>PlayDeFi</strong> is the vibe. 🎮 <strong>Burners</strong> are the access. 🔑 <strong>BCWX</strong> is the movement. 🚀</p>
+        <p><strong>PlayDeFi</strong> is the vibe. 🎮 <strong>Burners</strong> are the access. 🔑 <strong>BCWX</strong> is the movement. 🚀</p>
 
-  <p>Every event tightens supply and strengthens the pride. 💪 <strong>BCWX</strong> is not a moment. It is a movement with claws. 🐾</p>
+        <p>Every event tightens supply and strengthens the pride. 💪 <strong>BCWX</strong> is not a moment. It is a movement with claws. 🐾</p>
 
-  <p><strong>Join the Pride. Stack BCWX. Stay Sharp. 🦁✨</strong></p>
-</div>
+        <p><strong>Join the Pride. Stack BCWX. Stay Sharp. 🦁✨</strong></p>
+      </div>
 
-
-
+      <!-- BURNER -->
       <div id="panel-burner" class="tabpanel" role="tabpanel" aria-labelledby="tab-burner">
-  <h2>🔥 BCWX Burner NFT — Simple Breakdown</h2>
+        <h2>🔥 BCWX Burner NFT — Simple Breakdown</h2>
 
-  <p>The <strong>BCWX Burner NFT</strong> is your lifetime collar of entry to the pride. Each NFT is minted with <strong>$10 worth of BCWX</strong> directly in the <strong>PlayDeFi dApp</strong>. Every mint burns supply, amplifies scarcity, and marks your place among the pride.</p>
+        <p>The <strong>BCWX Burner NFT</strong> is your lifetime collar of entry to the pride. Each NFT is minted with <strong>$10 worth of BCWX</strong> directly in the <strong>PlayDeFi dApp</strong>. Every mint burns supply, amplifies scarcity, and marks your place among the pride.</p>
 
-  <h3>💰 Where Each Mint Goes</h3>
-  <ul class="clean">
-    <li><strong>10 percent → OG Cat NFT Holders:</strong> honoring the originals who lit the first torch and taught the kittens how to hunt.</li>
-    <li><strong>15 percent → Treasury:</strong> fueling growth, development, and liquidity for the pride’s expansion.</li>
-    <li><strong>75 percent → Burned Forever:</strong> gone for good, leaving fewer tracks and greater rarity.</li>
-  </ul>
+        <h3>💰 Where Each Mint Goes</h3>
+        <ul class="clean">
+          <li><strong>10 percent → OG Cat NFT Holders:</strong> honoring the originals who lit the first torch and taught the kittens how to hunt.</li>
+          <li><strong>15 percent → Treasury:</strong> fueling growth, development, and liquidity for the pride’s expansion.</li>
+          <li><strong>75 percent → Burned Forever:</strong> gone for good, leaving fewer tracks and greater rarity.</li>
+        </ul>
 
-  <h3>⚙️ How It Works</h3>
-  <p>You need at least one <strong>BCWX Burner NFT</strong> to enter <strong>PlayDeFi</strong> events. Each NFT equals one entry per event.</p>
+        <h3>⚙️ How It Works</h3>
+        <p>You need at least one <strong>BCWX Burner NFT</strong> to enter <strong>PlayDeFi</strong> events. Each NFT equals one entry per event.</p>
 
-  <ul class="clean">
-    <li>🐾 <strong>1 NFT = 1 Entry</strong> per event</li>
-    <li>🐾 <strong>2 NFTs = 2 Entries</strong> per event</li>
-    <li>🐾 <strong>3 NFTs = 3 Entries</strong> per event</li>
-  </ul>
+        <ul class="clean">
+          <li>🐾 <strong>1 NFT = 1 Entry</strong> per event</li>
+          <li>🐾 <strong>2 NFTs = 2 Entries</strong> per event</li>
+          <li>🐾 <strong>3 NFTs = 3 Entries</strong> per event</li>
+        </ul>
 
-  <p>They never expire. They are yours for life. Collect them like whiskers of status inside the pride.</p>
+        <p>They never expire. They are yours for life. Collect them like whiskers of status inside the pride.</p>
 
-  <h3>🌐 The BCWX System</h3>
-  <ul class="clean">
-    <li>🎮 <strong>PlayDeFi = The Vibe</strong></li>
-    <li>🔑 <strong>BCWX Burner NFT = The Access</strong></li>
-    <li>🔥 <strong>BCWX = The Movement</strong></li>
-  </ul>
+        <h3>🌐 The BCWX System</h3>
+        <ul class="clean">
+          <li>🎮 <strong>PlayDeFi = The Vibe</strong></li>
+          <li>🔑 <strong>BCWX Burner NFT = The Access</strong></li>
+          <li>🔥 <strong>BCWX = The Movement</strong></li>
+        </ul>
 
-  <p>Every event builds momentum. Every entry strengthens the pride. The more we play, the louder the roar. 🦁</p>
-</div>
+        <p>Every event builds momentum. Every entry strengthens the pride. The more we play, the louder the roar. 🦁</p>
+      </div>
 
-
+      <!-- INTEGRATION -->
       <div id="panel-integration" class="tabpanel" role="tabpanel" aria-labelledby="tab-integration">
-  <h2>🎮 PlayDeFi Integration</h2>
+        <h2>🎮 PlayDeFi Integration</h2>
 
-  <p>As a <strong>PlayDeFi</strong> host token, <strong>BCWX</strong> gains permanent on-chain utility through events that burn supply, reward winners, and strengthen the pride. 🦁</p>
+        <p>As a <strong>PlayDeFi</strong> host token, <strong>BCWX</strong> gains permanent on-chain utility through events that burn supply, reward winners, and strengthen the pride. 🦁</p>
 
-  <p>Each <strong>PlayDeFi</strong> event keeps the pride in motion. Every <strong>BCWX</strong> entry is split four ways:</p>
+        <p>Each <strong>PlayDeFi</strong> event keeps the pride in motion. Every <strong>BCWX</strong> entry is split four ways:</p>
 
-  <ul class="clean">
-    <li>🔥 <strong>Burned Forever:</strong> Gone forever. Scarcity sharpened.</li>
-    <li>🏆 <strong>Event Winner:</strong> The spotlight moment. Someone walks away grinning.</li>
-    <li>💼 <strong>Treasury:</strong> Fuel for the next hunt — growth, development, liquidity.</li>
-    <li>🐾 <strong>OG Cat NFT Holders:</strong> The original cats of the pride always get their share of the shine.</li>
-  </ul>
+        <ul class="clean">
+          <li>🔥 <strong>Burned Forever:</strong> Gone forever. Scarcity sharpened.</li>
+          <li>🏆 <strong>Event Winner:</strong> The spotlight moment. Someone walks away grinning.</li>
+          <li>💼 <strong>Treasury:</strong> Fuel for the next hunt — growth, development, liquidity.</li>
+          <li>🐾 <strong>OG Cat NFT Holders:</strong> The original cats of the pride always get their share of the shine.</li>
+        </ul>
 
-  <h3>🎟️ Event Format</h3>
-  <p>Each event requires both <strong>USDC</strong> and <strong>BCWX</strong>. For every <strong>$10 USDC</strong> entry, participants contribute <strong>$1 worth of BCWX</strong>. That ten percent pairing keeps utility steady and the burn instinct alive. 🔥</p>
+        <h3>🎟️ Event Format</h3>
+        <p>Each event requires both <strong>USDC</strong> and <strong>BCWX</strong>. For every <strong>$10 USDC</strong> entry, participants contribute <strong>$1 worth of BCWX</strong>. That ten percent pairing keeps utility steady and the burn instinct alive. 🔥</p>
 
-  <h3>💰 USDC Distribution</h3>
-  <ul class="clean">
-    <li>💖 <strong>1 percent → Charity:</strong> verified wallets that give back to real-world causes.</li>
-    <li>🏦 <strong>14 percent → Treasuries:</strong> maintaining healthy growth and stability.</li>
-    <li>🐾 <strong>10 percent → OG Cat NFT Holders:</strong> honoring the original cats of the pride.</li>
-    <li>🏆 <strong>75 percent → Event Winner:</strong> the champion of the round takes the roar.</li>
-  </ul>
+        <h3>💰 USDC Distribution</h3>
+        <ul class="clean">
+          <li>💖 <strong>1 percent → Charity:</strong> verified wallets that give back to real world causes.</li>
+          <li>🏦 <strong>14 percent → Treasuries:</strong> maintaining healthy growth and stability.</li>
+          <li>🐾 <strong>10 percent → OG Cat NFT Holders:</strong> honoring the original cats of the pride.</li>
+          <li>🏆 <strong>75 percent → Event Winner:</strong> the champion of the round takes the roar.</li>
+        </ul>
 
-  <h3>💼 BCWX Treasury Proceeds</h3>
-  <p><strong>USDC</strong> in Treasury covers operations, development, and liquidity — the essentials that keep the pride moving and the ecosystem sleek. ⚙️</p>
+        <h3>💼 BCWX Treasury Proceeds</h3>
+        <p><strong>USDC</strong> in Treasury covers operations, development, and liquidity — the essentials that keep the pride moving and the ecosystem sleek. ⚙️</p>
 
-  <h3>🌐 The BCWX Framework</h3>
-  <ul class="clean">
-    <li>🎮 <strong>PlayDeFi = The Vibe</strong></li>
-    <li>🔑 <strong>BCWX Burner NFT = The Access</strong></li>
-    <li>🔥 <strong>BCWX = The Movement</strong></li>
-  </ul>
+        <h3>🌐 The BCWX Framework</h3>
+        <ul class="clean">
+          <li>🎮 <strong>PlayDeFi = The Vibe</strong></li>
+          <li>🔑 <strong>BCWX Burner NFT = The Access</strong></li>
+          <li>🔥 <strong>BCWX = The Movement</strong></li>
+        </ul>
 
-  <p>Together they form a culture of precision, agility, and loyalty — a global pride connected by purpose and play. 🌍🐾</p>
+        <p>Together they form a culture of precision, agility, and loyalty — a global pride connected by purpose and play. 🌍🐾</p>
 
-  <h3>🚀 The Takeaway</h3>
-  <p><strong>BCWX</strong> and <strong>PlayDeFi</strong> create a living ecosystem that hunts scarcity and rewards participation. Every fundraiser burns supply, rewards players, and builds momentum for the next generation.</p>
+        <h3>🚀 The Takeaway</h3>
+        <p><strong>BCWX</strong> and <strong>PlayDeFi</strong> create a living ecosystem that hunts scarcity and rewards participation. Every fundraiser burns supply, rewards players, and builds momentum for the next generation.</p>
 
-  <p><strong>Enter The Vibe. Stack BCWX. Stay Sharp. 🦁✨</strong></p>
-</div>
+        <p><strong>Enter The Vibe. Stack BCWX. Stay Sharp. 🦁✨</strong></p>
+      </div>
 
+      <!-- FAQ -->
       <div id="panel-faq" class="tabpanel" role="tabpanel" aria-labelledby="tab-faq">
-  <h2>❓ FAQ</h2>
+        <h2>❓ FAQ</h2>
 
-  <p><strong>🐾 Q: Do I need a Burner NFT to join events?</strong><br>
-  A: Yes. It is your lifetime initiation into the pride. Without one, you can watch the hunt but never join the chase. 🦁</p>
+        <p><strong>🐾 Q: Do I need a Burner NFT to join events?</strong><br>
+        A: Yes. It is your lifetime initiation into the pride. Without one, you can watch the hunt but never join the chase. 🦁</p>
 
-  <p><strong>💸 Q: How much does it cost to mint one?</strong><br>
-  A: Each <strong>Burner NFT</strong> costs <strong>ten dollars’ worth of BCWX</strong> at the current live price. 🔥</p>
+        <p><strong>💸 Q: How much does it cost to mint one?</strong><br>
+        A: Each <strong>Burner NFT</strong> costs <strong>ten dollars’ worth of BCWX</strong> at the current live price. 🔥</p>
 
-  <p><strong>🚫 Q: Can I sell or transfer my Burner NFT?</strong><br>
-  A: No. They are <strong>non-transferable</strong>, ensuring every cat in the pride earns their place. 🐈‍⬛</p>
+        <p><strong>🚫 Q: Can I sell or transfer my Burner NFT?</strong><br>
+        A: No. They are <strong>non transferabIe</strong>, ensuring every cat in the pride earns their place. 🐈‍⬛</p>
 
-  <p><strong>🔥 Q: Why burn so much supply?</strong><br>
-  A: Because every hunt has a purpose. Scarcity strengthens value, and focus sharpens the market’s claws. 🐾</p>
+        <p><strong>🔥 Q: Why burn so much supply?</strong><br>
+        A: Because every hunt has a purpose. Scarcity strengthens value, and focus sharpens the market’s claws. 🐾</p>
 
-  <p><strong>🤝 Q: What is in it for the community?</strong><br>
-  A: Event rewards, charity participation, and the shared satisfaction of watching supply shrink while the pride grows stronger. 💪</p>
+        <p><strong>🤝 Q: What is in it for the community?</strong><br>
+        A: Event rewards, charity participation, and the shared satisfaction of watching supply shrink while the pride grows stronger. 💪</p>
 
-  <p><strong>💰 Q: Where do I get BCWX?</strong><br>
-  A: You can buy it directly on the <strong>DEX</strong> linked in the <strong>PlayDeFi dApp</strong> or through partnered platforms. 🌐</p>
+        <p><strong>💰 Q: Where do I get BCWX?</strong><br>
+        A: You can buy it directly on the <strong>DEX</strong> linked in the <strong>PlayDeFi dApp</strong> or through partnered platforms. 🌐</p>
 
-  <p><strong>🚀 Q: What is next for BCWX?</strong><br>
-  A: More integrations, more events, and more claws in the game. <strong>BabyCatWifX</strong> always lands on his feet. 🐾✨</p>
+        <p><strong>🚀 Q: What is next for BCWX?</strong><br>
+        A: More integrations, more events, and more claws in the game. <strong>BabyCatWifX</strong> always lands on his feet. 🐾✨</p>
 
-  <p><strong>Know The Rules. Stack BCWX. Stay Sharp. 🦁🔥</strong></p>
-</div>
-
+        <p><strong>Know The Rules. Stack BCWX. Stay Sharp. 🦁🔥</strong></p>
+      </div>
     </section>
 
     <!-- HOW IT WORKS -->
@@ -236,17 +243,17 @@
         <div class="step">
           <h3>1) Buy BCWX</h3>
           <p>Grab BCWX on the DEX to unlock NFT Burner minting and event access.</p>
-          <div class="cta-row"><a class="btn btn-ghost" href="#" id="buy1">Buy on DEX</a></div>
+          <div class="cta-row"><a class="btn btn-ghost" href="https://dexscreener.com/solana/hx8bv2n4skh23txjf1qt2sbf6onqpfwn1sbsmb4zdj9m" target="_blank" rel="noopener">Buy on DEX</a></div>
         </div>
         <div class="step">
           <h3>2) Mint a NFT Burner</h3>
-          <p>Spend ten dollars worth of BCWX to mint a non-transferable NFT Burner. One NFT Burner equals one entry per event.</p>
-          <div class="cta-row"><a class="btn btn-primary" href="https://play.playdefi.org/bcwx" target="_blank" rel="noopener">Mint in dApp</a></div>
+          <p>Spend ten dollars worth of BCWX to mint a non transferable NFT Burner. One NFT Burner equals one entry per event.</p>
+          <div class="cta-row"><a class="btn btn-primary" href="https://play.playdefi.org/bcwx/" target="_blank" rel="noopener">Mint in dApp</a></div>
         </div>
         <div class="step">
           <h3>3) Enter Events</h3>
           <p>Compete in exclusive events and giveaways. Participation drives scarcity.</p>
-          <div class="cta-row"><a class="btn btn-ghost" href="https://play.playdefi.org/bcwx" target="_blank" rel="noopener">Enter Now</a></div>
+          <div class="cta-row"><a class="btn btn-ghost" href="https://play.playdefi.org/bcwx/" target="_blank" rel="noopener">Enter Now</a></div>
         </div>
       </div>
     </section>
@@ -270,13 +277,14 @@
       </div>
       <div class="cta-row" style="margin-top:8px">
         <a class="btn btn-ghost" href="https://www.playdefi.org/bcwx-token" target="_blank" rel="noopener">Read Token Page</a>
-        <a class="btn btn-ghost" href="#" id="dexLink">Raydium Pair</a>
+        <a class="btn btn-ghost" href="https://dexscreener.com/solana/hx8bv2n4skh23txjf1qt2sbf6onqpfwn1sbsmb4zdj9m" target="_blank" rel="noopener">Dexscreener</a>
       </div>
     </section>
 
     <footer>© 2025 BCWX</footer>
   </div>
 
+  <!-- JS -->
   <script src="assets/js/main.js"></script>
 </body>
 </html>
