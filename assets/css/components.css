@@ -17,6 +17,16 @@
   }
 }
 
+/* 🔧 POLISH FOR SMALLER SCREENS */
+@media (max-width:480px){
+  .chip{
+    padding:8px 12px;
+    font-weight:800;
+    font-size:13px;          /* a little smaller text */
+  }
+}
+
+
 .eyebrow{display:inline-block;color:#0a0a0a;background:linear-gradient(90deg,var(--pink),var(--orange));padding:6px 10px;border-radius:999px;font-size:12px;letter-spacing:.35px;text-transform:uppercase;box-shadow:0 6px 26px rgba(255,104,76,.35)}
 .lede{font-size:clamp(16px,2.4vw,19px);margin:0}
 
